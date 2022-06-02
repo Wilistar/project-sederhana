@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Spartan:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;700&family=Spartan:wght@400;800&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+nav {
+    background-color: #212121;
+    padding: 5px;
+    text-align: right;
+    overflow: auto;    
+}
+nav a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-family: 'Spartan', sans-serif ;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 35px;
+    width: 10px;
+
+}
+#pbws {
+    margin-left: 50px;
+    font-size: 15px;
+    float: left;
+    color: yellow;
+    font-family: 'Spartan', sans-serif;
+}
+nav a:hover {
+    font-weight: bold;
+    color: yellow;
+}
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+.home-img {
+    width: auto;
+    max-height: 300px;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+}
+#homept {
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+}
+#phomep {
+    margin-right: 50px;
+    font-family: 'Crimson Pro',sans-serif;
+    font-size: 21px;
+    text-shadow:2px 2px 3px yellow;
+}
+#homeh {
+    font-family: 'Bangers',sans-serif;
+    text-shadow:2px 2px 3px yellow;
+}
+.home {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background: rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 70px;
+    margin-top: 30px;
+}
+footer {
+    padding: 25px;
+    margin-top: 25px;
+    color: yellow;
+    font-family: 'Spartan', sans-serif;
+    background-color: #212121;
+    text-align: center;
+}
+.artikel-img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 600px;
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 5px 5px 5px yellow;
+}
+.konten {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 25px;
+}
+.judul {
+    font-family: 'Spartan', sans-serif;
+    text-shadow:2px 2px 3px yellow;
+}
+.isi {
+    font-family: 'Crimson Pro',sans-serif;
+    font-size: 18px;
+    text-shadow:1px 1px 2px yellow;
+}
+.biodata {
+    float: right;
+    width: 50%;
+    font-size: 19px;
+    margin-top: 40px;
+    font-family: 'Crimson Pro',sans-serif;
+    text-shadow:1px 1px 2px yellow;
+}
+section h2 {
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    text-shadow:2px 2px 3px yellow;
+}
+.foto-saya {
+    width: 310px;
+    border-radius: 35px 0 35px 0;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px yellow;
+    margin-right: auto;
+    margin-left: 150px;
+}
+@media screen and (max-width: 1000px) {
+    .konten {
+        width: 100%;
+        float: none;
+    }
+    nav {
+        width: 100%;
+        float: none;
+        position: relative;
+
+    }
+    .artikel-img {
+        width: 100%;
+
+    }
+    .home {
+        width: 100%;
+        float: none;
+    }
+    .home-img {
+        width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+    }
+    #homept {
+        width: 100%;
+        float: none;
+    }
+    footer {
+        width: 100%;
+        float: none;
+        margin: 0;
+        margin-top: 25px;
+        text-align: center;
+        margin-right: 0%;
+    }
+    .biodata {
+        width: 100%;
+        float: none;
+    }
+    .foto-saya {
+        width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+    }
+}
